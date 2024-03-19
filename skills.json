@@ -1,0 +1,117 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "OpenVoiceOS skills store",
+    "description": "Welcome to OpenVoiceOS skills store",
+    "home_page_url": "https://openvoiceos.github.io/OVOS-skills-store",
+    "feed_url": "https://openvoiceos.github.io/OVOS-skills-store/skills.json",
+    "items": [
+        {
+            "skill_id": "ovos-skill-station-fall-game.jarbasai",
+            "source": "https://github.com/JarbasSkills/ovos-skill-station-fall-game",
+            "package_name": "ovos-skill-station-fall-game",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [],
+                "gui": []
+            },
+            "icon": "http://infocom.elsewhere.org/gallery/stationfall/stationfall1.jpg",
+            "images": [],
+            "name": "Station Fall",
+            "description": "What a trotting krip! Since your incredible heroics in Stationfall, where you risked life and limb to save the station Resida, things have hardly changed at all",
+            "examples": [
+                "play station fall",
+                "save game",
+                "exit game"
+            ],
+            "tags": [
+                "game",
+                "adventure",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-hhgg-game.jarbasai",
+            "source": "https://github.com/JarbasSkills/ovos-skill-hhgg-game",
+            "package_name": "ovos-skill-hhgg-game",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [],
+                "gui": []
+            },
+            "icon": "http://infocom.elsewhere.org/gallery/hhgttg/front_th.jpg",
+            "images": [],
+            "name": "Hitchiker's Guide to the Galaxy",
+            "description": "As the story begins, you are Arthur Dent, and a bulldozer is preparing to level your house even as an alien space fleet is preparing to level your planet. The incorrigible Mr. Adams has written new material and designed problems, especially for this interactive story. So grab a pint of bitter and a couple for the road and join Ford Prefect, Trillian, Zaphod Beeblebrox and Marvin on a cosmic jaunt into the outer reaches where anything can -- and does -- happen. And don't forget your towel!",
+            "examples": [
+                "play hitchiker guide to the galaxy",
+                "save game",
+                "exit game"
+            ],
+            "tags": [
+                "game",
+                "adventure",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-starcross-game.jarbasai",
+            "source": "https://github.com/JarbasSkills/ovos-skill-starcross-game",
+            "package_name": "ovos-skill-starcross-game",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [],
+                "gui": []
+            },
+            "icon": "http://infocom.elsewhere.org/gallery/starcross/starcross1.jpg",
+            "images": [],
+            "name": "Starcross",
+            "description": "STARCROSS, Infocom's science fiction mind-bender, launches you headlong into the year 2186 and the depths of space.",
+            "examples": [
+                "play star cross",
+                "save game",
+                "exit game"
+            ],
+            "tags": [
+                "game",
+                "adventure",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-planet-fall-game.jarbasai",
+            "source": "https://github.com/JarbasSkills/ovos-skill-planet-fall-game",
+            "package_name": "ovos-skill-planet-fall",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [],
+                "gui": []
+            },
+            "icon": "http://infocom.elsewhere.org/gallery/planetfall/planetfall1.jpg",
+            "images": [],
+            "name": "Planet Fall",
+            "description": "\"Join the Patrol, and see the Galaxy!\" You took the poster's advice, bait and all, and marched right over to the recruitment station near your home on the backwater planet of Gallium.",
+            "examples": [
+                "play planet fall",
+                "save game",
+                "exit game"
+            ],
+            "tags": [
+                "game",
+                "adventure",
+                "entertainment"
+            ]
+        }
+    ]
+}
