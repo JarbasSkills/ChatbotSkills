@@ -1,1 +1,1 @@
-# Welcome to my Game Skills Store!
+# Welcome to my ChatBot Skills Store!
