@@ -6,274 +6,129 @@
     "feed_url": "https://openvoiceos.github.io/OVOS-skills-store/skills.json",
     "items": [
         {
-            "skill_id": "ovos-skill-white-house-adventure.forslund",
-            "source": "https://github.com/OVOSHatchery/ovos-skill-white-house-adventure",
-            "package_name": "ovos-skill-white-house-adventure",
+            "skill_id": "ovos-skill-fallback-dialogpt.openvoiceos",
+            "source": "https://github.com/OVOSHatchery/ovos-skill-fallback-dialogpt",
+            "package_name": "ovos-skill-fallback-dialogpt",
             "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
+                "core": [
+                    "ovos-solver-plugin-dialogpt"
+                ]
             },
-            "icon": "http://infocom.elsewhere.org/gallery/zork1/zork1.jpg",
-            "images": [],
-            "name": "Zork",
-            "description": "Explore the white house, the forest surrounding it and the hidden kingdom below it.",
+            "name": "DialoGPT Fallback Skill",
+            "description": "Offline alternative to ChatGPT skill (GPT 2 based), powered by DialoGPT Persona.",
             "examples": [
-                "play zork",
-                "save game",
-                "exit game"
+                "What is best in life?",
+                "Do you like dogs?",
+                "Does God exist?"
             ],
             "tags": [
-                "game",
-                "adventure",
-                "entertainment"
+                "fallback",
+                "dialogpt",
+                "offline",
+                "alternative"
+            ],
+            "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg"
+        },
+        {
+            "skill_id": "ovos-skill-fallback-rivescript.openvoiceos",
+            "source": "https://github.com/OVOSHatchery/ovos-skill-fallback-rivescript",
+            "package_name": "ovos-skill-fallback-rivescript",
+            "name": "Fallback Rivescript",
+            "description": "Rivescript fallback skill with classic ELIZA chatbot answers.",
+            "examples": [
+                "who is your favorite author",
+                "i am 8 years old",
+                "do you know my age",
+                "i feel weird",
+                "who is your master"
+            ],
+            "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg",
+            "tags": [
+                "chatbot",
+                "fallback",
+                "ELIZA",
+                "Rivescript"
             ]
         },
         {
-            "skill_id": "ovos-skill-station-fall-game.jarbasai",
-            "source": "https://github.com/JarbasSkills/ovos-skill-station-fall-game",
-            "package_name": "ovos-skill-station-fall-game",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "http://infocom.elsewhere.org/gallery/stationfall/stationfall1.jpg",
-            "images": [],
-            "name": "Station Fall",
-            "description": "What a trotting krip! Since your incredible heroics in Stationfall, where you risked life and limb to save the station Resida, things have hardly changed at all",
+            "skill_id": "ovos-skill-fallback-aiml.openvoiceos",
+            "source": "https://github.com/OVOSHatchery/ovos-skill-fallback-aiml",
+            "package_name": "ovos-skill-fallback-aiml",
+            "name": "AIML Chatbot",
+            "description": "Give OVOS some sass with AIML!",
             "examples": [
-                "play station fall",
-                "save game",
-                "exit game"
+                "Do you like ice cream",
+                "Do you like dogs",
+                "I have a jump rope"
             ],
             "tags": [
-                "game",
-                "adventure",
+                "aiml",
+                "chatbot",
                 "entertainment"
+            ],
+            "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg"
+        },
+        {
+            "skill_id": "skill-ovos-wolfie.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-wolfie",
+            "package_name": "ovos-skill-ovos-wolfie",
+            "icon": "https://github.com/OpenVoiceOS/skill-ovos-wolfie/raw/dev/res/icon/wolfie.png",
+            "images": [
+                "https://github.com/OpenVoiceOS/skill-ovos-wolfie/raw/dev/wolfie.gif"
+            ],
+            "name": "Wolfram Alpha",
+            "description": "Use Wolfram Alpha for general knowledge questions.",
+            "examples": [
+                "ask the wolf what is the speed of light",
+                "How tall is Mount Everest?",
+                "When was The Rocky Horror Picture Show released?",
+                "What is Madonna's real name?",
+                "What's 18 times 4?",
+                "How many inches in a meter?"
+            ],
+            "tags": [
+                "wolfram-alpha",
+                "query",
+                "general-knowledge",
+                "information"
             ]
         },
         {
-            "skill_id": "ovos-skill-zork3-game.jarbasai",
-            "source": "https://github.com/JarbasSkills/ovos-skill-zork3-game",
-            "package_name": "ovos-skill-zork3-game",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "http://infocom.elsewhere.org/gallery/zork3/front.jpg",
-            "images": [],
-            "name": "Zork 3",
-            "description": "An old, oddly youthful man turns toward you slowly. His long, silver hair dances about him as a fresh breeze blows. \"You have reached the final test, my friend! You are proved clever and powerful, but this is not yet enough! Seek me when you feel yourself worthy!",
+            "skill_id": "skill-ovos-fallback-chatgpt.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-fallback-chatgpt",
+            "package_name": "ovos-skill-ovos-fallback-chatgpt",
+            "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/2048px-ChatGPT_logo.svg.png",
+            "name": "ChatGPT Fallback Skill",
+            "description": "When in doubt, ask ChatGPT, powered by OpenAI Solver. Capabilities include remembering what the user said earlier in the conversation and declining inappropriate requests.",
             "examples": [
-                "play zork 2",
-                "save game",
-                "exit game"
+                "Explain quantum computing in simple terms",
+                "Got any creative ideas for a 10 year old\u2019s birthday?"
             ],
             "tags": [
-                "game",
-                "adventure",
-                "entertainment"
+                "artificial-intelligence",
+                "chatbot",
+                "language-model",
+                "openai",
+                "conversation",
+                "fallback",
+                "mycroft",
+                "voice-assistant",
+                "ai-assistant"
             ]
         },
         {
-            "skill_id": "ovos-skill-zork2-game.jarbasai",
-            "source": "https://github.com/JarbasSkills/ovos-skill-zork2-game",
-            "package_name": "ovos-skill-zork2-game",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "http://infocom.elsewhere.org/gallery/zork2/front.jpg",
-            "images": [],
-            "name": "Zork 2",
-            "description": "The Wizard appears, floating nonchalantly in the air beside you. He grins sideways at you.\n        The Wizard incants \"Fantasize,\" but nothing happens. He shakes the wand. Nothing happens. With a slightly embarassed glance in your direction, he vanishes.",
+            "skill_id": "skill-fallback-cakechat.tree",
+            "source": "https://github.com/OVOSHatchery/skill-fallback-cakechat",
+            "package_name": "ovos-skill-fallback-cakechat",
+            "icon": "https://img.freepik.com/premium-vector/cake-chat-character-cute-logo_96485-2230.jpg",
+            "name": "Fallback Cakechat",
+            "description": "A fallback that utilizes the CakeChat Emotional Generative Dialog System",
             "examples": [
-                "play zork 2",
-                "save game",
-                "exit game"
+                "What is your favorite color",
+                "what is the meaning of life"
             ],
             "tags": [
-                "game",
-                "adventure",
-                "entertainment"
-            ]
-        },
-        {
-            "skill_id": "ovos-skill-cave-adventure-game.jarbasai",
-            "source": "https://github.com/OVOSHatchery/ovos-skill-cave-adventure-game",
-            "package_name": "ovos-skill-cave-adventure-game",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "https://www.colossalcave3d.com/wp-content/uploads/2023/01/colossal-cave-feature-image.png",
-            "images": [],
-            "name": "Colossal Cave Adventure",
-            "description": "faithful port of the \u201cAdventure\u201d game to a OVOS Skill from the original 1977 FORTRAN code by Crowther and Woods.",
-            "examples": [
-                "play colossal cave adventure",
-                "save game",
-                "exit game"
-            ],
-            "tags": [
-                "game",
-                "adventure",
-                "entertainment"
-            ]
-        },
-        {
-            "skill_id": "ovos-skill-hhgg-game.jarbasai",
-            "source": "https://github.com/JarbasSkills/ovos-skill-hhgg-game",
-            "package_name": "ovos-skill-hhgg-game",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "http://infocom.elsewhere.org/gallery/hhgttg/front_th.jpg",
-            "images": [],
-            "name": "Hitchiker's Guide to the Galaxy",
-            "description": "As the story begins, you are Arthur Dent, and a bulldozer is preparing to level your house even as an alien space fleet is preparing to level your planet. The incorrigible Mr. Adams has written new material and designed problems, especially for this interactive story.",
-            "examples": [
-                "play hitchiker guide to the galaxy",
-                "save game",
-                "exit game"
-            ],
-            "tags": [
-                "game",
-                "adventure",
-                "entertainment"
-            ]
-        },
-        {
-            "skill_id": "ovos-skill-starcross-game.jarbasai",
-            "source": "https://github.com/JarbasSkills/ovos-skill-starcross-game",
-            "package_name": "ovos-skill-starcross-game",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "http://infocom.elsewhere.org/gallery/starcross/starcross1.jpg",
-            "images": [],
-            "name": "Starcross",
-            "description": "STARCROSS, Infocom's science fiction mind-bender, launches you headlong into the year 2186 and the depths of space.",
-            "examples": [
-                "play star cross",
-                "save game",
-                "exit game"
-            ],
-            "tags": [
-                "game",
-                "adventure",
-                "entertainment"
-            ]
-        },
-        {
-            "skill_id": "ovos-skill-underwater-adventure.forslund",
-            "source": "https://github.com/OVOSHatchery/ovos-skill-underwater-adventure",
-            "package_name": "ovos-skill-underwater-adventure",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "https://cdn0.iconfinder.com/data/icons/man-geologist-research-specimen/358/species-researcher-003-512.png",
-            "images": [],
-            "name": "Underwater Adventure",
-            "description": "You're trapped inside a sunken ship. Explore your surroundings and find the tools needed to escape this underwater prison.",
-            "examples": [
-                "Start the underwater adventure",
-                "Let us dive to the ship",
-                "Play underwater adventure"
-            ],
-            "tags": [
-                "game",
-                "adventure",
-                "interactive fiction",
-                "entertainment"
-            ]
-        },
-        {
-            "skill_id": "ovos-skill-planet-fall-game.jarbasai",
-            "source": "https://github.com/JarbasSkills/ovos-skill-planet-fall-game",
-            "package_name": "ovos-skill-planet-fall",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "http://infocom.elsewhere.org/gallery/planetfall/planetfall1.jpg",
-            "images": [],
-            "name": "Planet Fall",
-            "description": "\"Join the Patrol, and see the Galaxy!\" You took the poster's advice, bait and all, and marched right over to the recruitment station near your home on the backwater planet of Gallium.",
-            "examples": [
-                "play planet fall",
-                "save game",
-                "exit game"
-            ],
-            "tags": [
-                "game",
-                "adventure",
-                "entertainment"
-            ]
-        },
-        {
-            "skill_id": "ovos-skill-zork0-game.jarbasai",
-            "source": "https://github.com/JarbasSkills/ovos-skill-zork0-game",
-            "package_name": "ovos-skill-zork0-game",
-            "extra_plugins": {
-                "core": [],
-                "PHAL": [],
-                "listener": [],
-                "audio": [],
-                "media": [],
-                "gui": []
-            },
-            "icon": "http://infocom.elsewhere.org/gallery/zork0/zork0.jpg",
-            "images": [],
-            "name": "Zork Zero",
-            "description": "The Great Underground Empire is in its heyday. Upscale condos crowd the massive caverns. Subterranean highways stretch from Aragain to the Fublio Valley. And no adventurer has yet set foot in the open field west of the white house.",
-            "examples": [
-                "play zork zero",
-                "save game",
-                "exit game"
-            ],
-            "tags": [
-                "game",
-                "adventure",
-                "entertainment"
+                "chatbot"
             ]
         }
     ]
