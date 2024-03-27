@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-fallback-dialogpt.openvoiceos",
+  "source": "https://github.com/OVOSHatchery/ovos-skill-fallback-dialogpt",
+  "package_name": "ovos-skill-fallback-dialogpt",
+  "extra_plugins": {
+    "core": ["ovos-solver-plugin-dialogpt"]
+  },
+  "name": "DialoGPT Fallback Skill",
+  "description": "Offline alternative to ChatGPT skill (GPT 2 based), powered by DialoGPT Persona.",
+  "examples": [
+    "What is best in life?",
+    "Do you like dogs?",
+    "Does God exist?"
+  ],
+  "tags": ["fallback", "dialogpt", "offline", "alternative"],
+  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg"
+}

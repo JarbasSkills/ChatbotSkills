@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-fallback-rivescript.openvoiceos",
+  "source": "https://github.com/OVOSHatchery/ovos-skill-fallback-rivescript",
+  "package_name": "ovos-skill-fallback-rivescript",
+  "name": "Fallback Rivescript",
+  "description": "Rivescript fallback skill with classic ELIZA chatbot answers.",
+  "examples": [
+    "who is your favorite author",
+    "i am 8 years old",
+    "do you know my age",
+    "i feel weird",
+    "who is your master"
+  ],
+  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg",
+  "tags": ["chatbot", "fallback", "ELIZA", "Rivescript"]
+}

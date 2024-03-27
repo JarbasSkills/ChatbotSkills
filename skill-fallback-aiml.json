@@ -1,0 +1,14 @@
+{
+  "skill_id": "ovos-skill-fallback-aiml.openvoiceos",
+  "source": "https://github.com/OVOSHatchery/ovos-skill-fallback-aiml",
+  "package_name": "ovos-skill-fallback-aiml",
+  "name": "AIML Chatbot",
+  "description": "Give OVOS some sass with AIML!",
+  "examples": [
+    "Do you like ice cream",
+    "Do you like dogs",
+    "I have a jump rope"
+  ],
+  "tags": ["aiml", "chatbot", "entertainment"],
+  "icon": "https://raw.githack.com/FortAwesome/Font-Awesome/master/svgs/solid/robot.svg"
+}
